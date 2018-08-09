@@ -553,6 +553,11 @@
         that.setValue(that.parse(0, that.systemDate(options.value))); 
       } else {
         that.setValue(options.value); 
+        // friend：@rainbow 添加的代码 start
+        that.startState = true;
+        that.endState = true;
+        // friend：@rainbow 添加的代码 end
+
       }
     }
   };
